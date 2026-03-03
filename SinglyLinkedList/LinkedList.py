@@ -22,7 +22,7 @@ class Main:
         val = input("\nEnter the value of new node to append to the list\n:")
 
 
-        linkedList.insert(pos, val)
+        linkedList.insert_at(pos, val)
 
         linkedList.traversal()
         print(linkedList.count())
